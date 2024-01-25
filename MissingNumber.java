@@ -1,20 +1,25 @@
-package org.example;
-
 public class MissingNumber {
-
-
-    public static void main(String[] args) {
-//        begin here
-//        begin here
-//        begin here
-
-
+    public static void fineMissingNumber() {
+            int[] a = {1,2,3,4,5,6,7,8,9,10};
+            int[] nums = {1, 2, 4, 5, 6, 8, 9, 10};
+            // code here..
+            int numlen=nums.length;
+            int alen= a.length;
+            for(int i=0,j=0; i<alen && j<numlen; i++,j++)
+            {
+        
+                    if(a[i]!=nums[j])
+                    {
+                        System.out.println(a[i]);
+                        i++;
+                    }
+                    
+            }
     }
-
-    // nums array should have numbers from 1 to 10
-    // write a program to find the missing numbers in the array and pring them
-    private void fineMissingNumber() {
-        int[] nums = {1, 2, 4, 5, 6, 8, 9, 10};
-        // code here..
+        public static void main(String[] args) {
+    //        begin here
+    //        begin here
+    //        begin here
+                fineMissingNumber();
+        }
     }
-}
