@@ -5,6 +5,10 @@ public class MissingNumber {
 
     public static void main(String[] args) {
 //        begin here
+//        begin here
+//        begin here
+
+
     }
 
     // nums array should have numbers from 1 to 10
