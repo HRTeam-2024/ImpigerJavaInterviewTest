@@ -7,6 +7,8 @@ public class SimpleCache {
     //    the least recently used element and add the new one
     public void sayHello() {
         System.out.println("Hello World");
+        System.out.println("Hello World");
+
     }
 
 }

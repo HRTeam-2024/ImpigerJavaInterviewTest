@@ -5,6 +5,7 @@ public class Itinerary {
 
     public static void main(String[] args) {
 //        begin here
+        System.out.println("hi");
     	System.out.println("hello");
     }
 
