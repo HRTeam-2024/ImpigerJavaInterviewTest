@@ -4,13 +4,23 @@ public class Palindrome {
 
 
     public static void main(String[] args) {
-        // begin here
+        
         System.out.println("starting...");
+        String str = "mom";
+        checkPalindrome(str);
     }
 
 
     // Palindrome is a word which is same RTL and LTR
-    private void checkPalindrome(String phrase) {
-        // code here..
+    private static void checkPalindrome(String phrase) {
+
+        StringBuilder stringBuilder = new StringBuilder(phrase);
+
+        if(phrase.equalsIgnoreCase(stringBuilder.reverse().toString())){
+            System.out.println("The input string "+ phrase +" is palindrome");
+        }else {
+            System.out.println("The input string "+ phrase +" is not a palindrome");
+        }
+
     }
 }
